@@ -276,7 +276,7 @@ function setupVideoPlayer(mediaType, id) {
    const playerIframe = document.getElementById('player');
    if (playerIframe) {
       const embedType = mediaType === 'movie' ? 'movie' : 'tv';
-      playerIframe.src = `https://embed.su/embed/${embedType}/${id}`;
+      playerIframe.src = `https://vidsrcme.su/embed/${embedType}/${id}`;
    }
 }
 
